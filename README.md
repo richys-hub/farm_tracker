@@ -9,6 +9,7 @@ Launch the farm tracker with the button below the 'Esc' menu window. You can als
 
 In the initial Farm Tracker window, create a farm with the '+ Add Farm' button. Creating a farm will tie it to the sextant coordinates of your current position.
 After creating a farm, the list will automatically open. Hovering on an entity that contains mouseover info and a timer (such as a growing plant) will automatically add it to the list.
+
 As it's easy to accidentally hover your mouse on something you didn't intend to enter into the list, the addon has a modifier key toggle and filter list features. 
 Enabling 'Lock Filter' will prevent adding anything that isn't checked on in the 'Filters' list. When it is disabled, all new entity types/owners are added to both the farm list and the filters list.
 
