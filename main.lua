@@ -683,7 +683,7 @@ rebuildDoodadList = function()
 
             local qtyLbl = hdr:CreateChildWidget("label", "ft_dl_hq_"..rid.."_"..i, 0, true)
             qtyLbl:SetExtent(36, 27)
-            qtyLbl:AddAnchor("LEFT", hdr, 312, 0)
+            qtyLbl:AddAnchor("LEFT", hdr, 272, 0)
             qtyLbl:SetText("x" .. item.qty)
             qtyLbl:SetAutoResize(false)
             if qtyLbl.style then qtyLbl.style:SetAlign(ALIGN.CENTER) end
@@ -692,7 +692,7 @@ rebuildDoodadList = function()
 
             local eLbl = hdr:CreateChildWidget("label", "ft_dl_he_"..rid.."_"..i, 0, true)
             eLbl:SetExtent(100, 27)
-            eLbl:AddAnchor("LEFT", hdr, 352, 0)
+            eLbl:AddAnchor("LEFT", hdr, 312, 0)
             eLbl:SetText(formatTime(item.earliest))
             eLbl:SetAutoResize(false)
             if eLbl.style then eLbl.style:SetAlign(ALIGN.LEFT) end
@@ -702,7 +702,7 @@ rebuildDoodadList = function()
 
             local lLbl = hdr:CreateChildWidget("label", "ft_dl_hl_"..rid.."_"..i, 0, true)
             lLbl:SetExtent(100, 27)
-            lLbl:AddAnchor("LEFT", hdr, 456, 0)
+            lLbl:AddAnchor("LEFT", hdr, 436, 0)
             lLbl:SetText(formatTime(item.latest))
             lLbl:SetAutoResize(false)
             if lLbl.style then lLbl.style:SetAlign(ALIGN.LEFT) end
@@ -758,7 +758,7 @@ rebuildDoodadList = function()
             -- Time label in Earliest column
             local tLbl = row:CreateChildWidget("label", "ft_dl_et_"..rid.."_"..i, 0, true)
             tLbl:SetExtent(200, 27)
-            tLbl:AddAnchor("LEFT", row, 352, 0)
+            tLbl:AddAnchor("LEFT", row, 312, 0)
             tLbl:SetText(formatTime(item.t))
             tLbl:SetAutoResize(false)
             if tLbl.style then tLbl.style:SetAlign(ALIGN.LEFT); tLbl.style:SetFontSize(FONT_SIZE.SMALL or 14) end
@@ -837,9 +837,9 @@ local function openDetailWindow(farmId)
         end
         makeDHdr("ft_dh_expand",   "{",           13,   24)
         makeDHdr("ft_dh_name",     "Entity Name", 37,  280)
-        makeDHdr("ft_dh_qty",      "Qty",         321,  36)
-        makeDHdr("ft_dh_earliest", "Earliest",    361, 100)
-        makeDHdr("ft_dh_latest",   "Latest",      465, 100)
+        makeDHdr("ft_dh_qty",      "Qty",         281,  36)
+        makeDHdr("ft_dh_earliest", "Earliest",    321, 100)
+        makeDHdr("ft_dh_latest",   "Latest",      445, 100)
 
         -- Separator below column headers
         local sep3 = detailWin:CreateColorDrawable(0.3, 0.3, 0.5, 0.5, "background")
