@@ -3,7 +3,7 @@ This addon allows you to create lists with a name and location (gathered from yo
 This allows you to track the timers of entities such as plants in your farm, "illegal" farms, staged trade pack timers, and more.
 This addon was made with Claude Sonnet 4.6.
 
-How to use:
+**How to use:**
 
 Launch the farm tracker with the button below the 'Esc' menu window. You can also enable a main UI persistent button in the Addon settings, this button can be shift-click dragged to reposition and the new position will be stored between sessions.
 
